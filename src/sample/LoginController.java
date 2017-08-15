@@ -89,8 +89,8 @@ public class LoginController {
 		homeController = new HomeController();
         Constants.setUsername(userName.getText().trim());
         homeController.redirectHome(stage, Constants.getUsername());
-		
-		/*stage.setTitle("User Login");
+		/*
+		stage.setTitle("User Login");
 		stage.setScene(scene);
 		stage.setResizable(true);
 		stage.hide();
